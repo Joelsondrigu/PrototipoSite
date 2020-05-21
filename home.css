@@ -1,0 +1,44 @@
+body{
+    background: #515154;
+}
+
+footer{
+    text-align: center;
+    color: blanchedalmond;
+}
+div{
+    margin: auto;
+    text-align: center;
+
+   
+}
+div#texto{
+    background-color:blue ;
+    width: 500px;
+
+
+}
+div#interface{
+    
+    font:normal 12pt Candara;
+    text-align: left;
+    padding: 10px;
+    color:whitesmoke;
+}
+div#lucro{
+    font:normal 15pt Bahnschrift;
+    text-align: center;
+    padding: 10px;
+    color:blue;
+    background-color:white;
+}
+div#painel{
+    color:white;
+    font: normal 15pt Arial black;
+}
+section#s2{
+    width: 500px;
+    margin: auto;
+    background-color:goldenrod;
+   
+}
