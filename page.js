@@ -16,14 +16,11 @@ let res = document.getElementById("lucro")
         let vcompra = Number(valorC.value)
         let vvenda = Number(valorV.value)
         let tax = Number(taxa.value)
-        let porcento = 100
-        let qtdbtc = capitalN/valorBTCN*porcento
+        let qtdbtc = capitalN/valorBTCN*100
         let lucro = vvenda - vcompra
-        let liquido = lucro*qtdbtc 
-        let liquido2 = (liquido/100 - tax)
-        
+        let liquido = lucro * qtdbtc/100 - tax
         res.innerHTML=`<p> QTD BTC: = ${qtdbtc.toFixed(2)} %</p>`
-        res.innerHTML+=`<p>Lucro Liquido: = US$ ${liquido2.toFixed(2)}</p>`
+        res.innerHTML+=`<p>Lucro Liquido: = US$ ${liquido.toFixed(2)}</p>`
 
     }
    
@@ -46,4 +43,4 @@ if(capital.value != 0 || valorBTC.value != 0 || valorC.value != 0 || valorV.valu
 }
 
 }
-
+qtdbtc = capitalN/valorBTCN*porcento
