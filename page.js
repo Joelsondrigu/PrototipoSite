@@ -43,4 +43,4 @@ if(capital.value != 0 || valorBTC.value != 0 || valorC.value != 0 || valorV.valu
 }
 
 }
-qtdbtc = capitalN/valorBTCN*porcento
+
